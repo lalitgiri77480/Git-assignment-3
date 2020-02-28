@@ -1,0 +1,28 @@
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git commit -a -m "direct commit"
+[master 99234eb] direct commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 payal.txt
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   lalit.log
+        new file:   new.txt
+        new file:   opencv
+        new file:   payal.log
+
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ ls
+'commit 1.txt'   lalit.log   opencv/
+ error.log       new.txt     payal.log
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$ git mv new.txt new1.txt
+
+Lalit@Lalitgiripc MINGW64 ~/Desktop/git rapo (master)
+$
